@@ -5,6 +5,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [],
   css: ["~/assets/css/main.css"],
+  
+  // Указываем режим статической генерации, чтобы Nitro корректно собирал HTML
+  ssr: true,
+
   nitro: {
     static: true,
     prerender: {
@@ -12,8 +16,10 @@ export default defineNuxtConfig({
     },
   },
   app: {
-    // Добавляем эту строку, чтобы Nuxt искал стили в корне домена
-    baseURL: '/', 
+    // ИСПРАВЛЕНО: Меняем '/' на имя твоего репозитория с слэшами по бокам
+    baseURL: '/Charonbb.github.io/', 
+    buildAssetsDir: '/_nuxt/', // Жестко привязываем пути ассетов к baseURL
+    
     head: {
       link: [
         {
