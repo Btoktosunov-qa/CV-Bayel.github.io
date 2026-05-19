@@ -15,7 +15,7 @@
     </ClientOnly>
     <div class="flex items-baseline justify-between">
       <div class="font-medium text-4xl">Bayel Toktosunov</div>
-      <div class="font-medium text-2xl">Junior QA</div>
+      <div class="font-medium text-2xl">QA Specialist</div>
     </div>
     <hr class="my-2 print:my-1 text-gray-400" />
     <div class="flex flex-col gap-6 print:gap-2">
