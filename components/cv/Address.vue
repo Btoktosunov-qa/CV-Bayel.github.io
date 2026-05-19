@@ -37,10 +37,10 @@
 
       <a
         class="flex gap-1 items-center shrink-0 hover:text-primary-500"
-        href="https://github.com/Charonbb"
+        href="https://github.com/Btoktosunov-qa"
         target="_blank"
       >
-        <i class="pi pi-github text-gray-500" /> github.com/Charonbb
+        <i class="pi pi-github text-gray-500" /> github.com/Btoktosunov-qa
       </a>
       
       <a
