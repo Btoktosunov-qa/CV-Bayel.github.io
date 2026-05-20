@@ -80,14 +80,15 @@ export const experiences: CvExperience[] = [
  company: 'LLC "OGOGO"',
  location: "Bishkek, Kyrgyzstan",
  responsibilities: [
- "Conducted comprehensive smoke, regression, and functional testing, identifying and documenting 4–7 high-priority defects per release cycle.",
- "Executed end-to-end testing of core AI-driven product features, covering key user flows across Web, iOS, and Android platforms.",
- "Created, maintained, and refined QA documentation (test cases, bug reports, checklists), improving clarity and reproducibility for the QA team.",
+ "Conducted functional, smoke, and regression testing of product features across Web, iOS, and Android platforms to identify and document defects before releases.",
+ "Tested backend functionality and API integrations using Postman and Swagger, verifying request/response data.",
+ "Created and updated QA documentation, including test cases and checklists, maintaining clear bug reports in Jira.",
+"Collaborated with developers and project team members to clarify requirements and verify fixed issues.",
  ],
  technicalStack: [
  {
  type: "tools",
- technologies: ["Jira", "Postman", "Swagger", "Selenium", "Python"],
+ technologies: ["Jira", "Postman","DevTools","Swagger","SQL (PostgreSQL / MS SQL) — basic queries, Joins"],
  },
  {
  type: "Testing tools",
@@ -149,7 +150,7 @@ export const totalMonths = calculateTotalExperienceMonths(experiences);
 // SUMMARY и все остальное
 // ----------------------
 export const professionalSummary = (() => {
-  return `Quality Assurance (QA) Specialist with 11 months of practical experience in functional, smoke, and regression testing. Proficient in using modern QA tools such as Jira, Postman, and Swagger. Motivated to advance in test automation with Python and Selenium, with a strong focus on delivering high-quality, reliable products in Agile environments.`;
+  return `Quality Assurance (QA) Specialist with 11 months of practical experience in manual functional, smoke, and regression testing across Web, iOS, and Android platforms. Strong expertise in backend and API testing using Postman and Swagger, with a deep understanding of REST API architecture. Skilled in data validation, technical documentation, and analyzing system integrations. Focused on ensuring product stability and seamless data flows within Agile teams.`;
 })();
 
 // ... (Остальной код, который вы присылали: EDUCATION, AWARDS, LANGUAGES, SKILLS LOGIC)
