@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   },
   app: {
     // ИСПРАВЛЕНО: Меняем '/' на имя твоего репозитория с слэшами по бокам
-    baseURL: '/Charonbb.github.io/', 
+    baseURL: '/CV-Bayel.github.io/', 
     buildAssetsDir: '/_nuxt/', // Жестко привязываем пути ассетов к baseURL
     
     head: {
@@ -40,7 +40,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      baseUrl: "https://charonbb.github.io",
+      baseUrl: "https://CVBayel.github.io",
       email: "b.toktosunof@gmail.com",
     },
   },
