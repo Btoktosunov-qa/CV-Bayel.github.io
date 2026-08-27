@@ -150,7 +150,7 @@ export const totalMonths = calculateTotalExperienceMonths(experiences);
 // SUMMARY и все остальное
 // ----------------------
 export const professionalSummary = (() => {
-  return `Quality Assurance (QA) Specialist with 12 months of practical experience in manual functional, smoke, and regression testing across Web, iOS, and Android platforms. Strong expertise in backend and API testing using Postman and Swagger, with a deep understanding of REST API architecture. Skilled in data validation, technical documentation, and analyzing system integrations. Focused on ensuring product stability and seamless data flows within Agile teams.`;
+  return `Quality Assurance (QA) Specialist with 14 months of practical experience in manual functional, smoke, and regression testing across Web, iOS, and Android platforms. Strong expertise in backend and API testing using Postman and Swagger, with a deep understanding of REST API architecture. Skilled in data validation, technical documentation, and analyzing system integrations. Focused on ensuring product stability and seamless data flows within Agile teams.`;
 })();
 
 // ... (Остальной код, который вы присылали: EDUCATION, AWARDS, LANGUAGES, SKILLS LOGIC)
